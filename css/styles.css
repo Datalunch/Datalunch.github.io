@@ -1,24 +1,45 @@
+/*---------------------- Font generation-----------------------------*/
+
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('fonts/MuseoSans_500-webfont.woff2') format('woff2'),
+         url('fonts/MuseoSans_500-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo300-Regular';
+    src: url('fonts/Museo300-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Museo300-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ------------------------------------------------------------------- */
+
 body {
   font-size: 80%;
-  font-family: Arial, sans-serif;
+  font-family: Museo300-Regular, Arial, sans-serif;
   margin: 0 auto;
   width: 90%;
-  max-width: 960px;
+  max-width: 750px;
 }
 
 #logo {
-  width: 150px;
-  margin: 30px auto 30px auto;
+  width: 100px;
+  margin: 30px auto 15px auto;
 }
 
 #logo-pic {
-  max-width: 150px;
+  max-width: 100px;
   padding-left: 5px;
 }
 
 #nav {
   width: 100%;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 ul {
@@ -59,13 +80,13 @@ a {
 
 .people {
   display: inline-block;
-  width: 300px;
+  width: 225px;
   padding: 5px;
   vertical-align: top;
 }
 
 .img {
-  width: 300px;
+  width: 225px;
 }
 
 .notes {
