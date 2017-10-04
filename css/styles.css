@@ -96,6 +96,7 @@ a {
 .instagram {
   width: 350px;
   display: inline-block;
+  margin: 0px 5px;
 }
 
 .instagram-header {
