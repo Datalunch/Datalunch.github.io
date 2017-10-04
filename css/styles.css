@@ -82,11 +82,15 @@ a {
   display: inline-block;
   width: 225px;
   padding: 5px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .img {
   width: 225px;
+}
+
+.caldera {
+  width: 150px;
 }
 
 .notes {
@@ -98,7 +102,7 @@ a {
 }
 
 .row-2 {
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
 #footer {
