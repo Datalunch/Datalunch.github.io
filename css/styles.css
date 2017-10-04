@@ -78,6 +78,37 @@ a {
   text-align: center;
 }
 
+.application {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.application-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.application-link {
+  color: blue;
+}
+
+.instagram {
+  width: 350px;
+  display: inline-block;
+}
+
+.instagram-header {
+  font-size: 15px;
+  float: center;
+  margin-bottom: 10px;
+}
+
+.instagram-logo {
+  vertical-align: middle;
+  width: 15px;
+}
+
 .people {
   display: inline-block;
   width: 225px;
@@ -87,6 +118,18 @@ a {
 
 .img {
   width: 225px;
+}
+
+.snapwidget-widget-1 {
+  width: 350px;
+  height: 350px;
+  margin-right: 5px;
+}
+
+.snapwidget-widget-2 {
+  width: 350px;
+  height: 350px;
+  margin-left: 5px;
 }
 
 .caldera {
