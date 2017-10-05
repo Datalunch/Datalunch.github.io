@@ -28,13 +28,23 @@ body {
 }
 
 #logo {
-  width: 100px;
-  margin: 30px auto 15px auto;
+  width: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
 }
 
 #logo-pic {
   max-width: 100px;
   padding-left: 5px;
+  float: left;
+}
+
+#orange {
+  height: 65px;
+  width: 100%;
+  background-color: #E75921;
+  margin-left: 15px;
 }
 
 #nav {
@@ -46,19 +56,27 @@ ul {
   padding: 0px;
   display: flex;
   width: 100%;
+  height: 65px;
+  margin: 0;
+
 }
 
 li {
   float: left;
-  width: 33.33%;
-  margin: 0px auto;
+  /*width: 30%;*/
+  margin-left: 25px;
   list-style-type: none;
+  line-height: 65px;
+  vertical-align: middle;
 }
 
 .menu {
   text-align: center;
-  letter-spacing: 4px;
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 100;
+
 }
 
 a {
@@ -67,11 +85,43 @@ a {
 }
 
 #content {
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
-#feature {
+.feature {
   width: 100%;
+  margin-bottom: 10px;
+}
+
+.feature1 {
+  width: 60%;
+  margin-bottom: 0px;
+}
+
+#feature23 {
+  float: right;
+  width: 38%;
+}
+
+.feature2 {
+  width: 100%;
+  margin-bottom: 11px;
+}
+
+.feature3 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  width: 60%;
+  font-size: 58px;
+  text-align: center;
+}
+
+.feature4 {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .row {
@@ -90,13 +140,21 @@ a {
 }
 
 .application-link {
-  color: blue;
+  color: #E75921;
+}
+
+.instagram-row {
+  text-align: center;
+  height: 250px;
+  margin-bottom: 20px;
 }
 
 .instagram {
-  width: 350px;
+  width: 200px;
+  height: 250px;
   display: inline-block;
-  margin: 0px 5px;
+  margin: 0px 50px;
+  float: center;
 }
 
 .instagram-header {
@@ -112,13 +170,13 @@ a {
 
 .people {
   display: inline-block;
-  width: 225px;
+  width: 175px;
   padding: 5px;
   vertical-align: middle;
 }
 
 .img {
-  width: 225px;
+  width: 150px;
 }
 
 .snapwidget-widget-1 {
@@ -134,7 +192,11 @@ a {
 }
 
 .caldera {
-  width: 150px;
+  width: 75px;
+}
+
+.badger, .bighole{
+  width: 115px;
 }
 
 .notes {
